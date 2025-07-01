@@ -1,0 +1,98 @@
+/* experience */
+.experience {
+  padding: 50px 0;
+}
+.date {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--primary-color);
+  letter-spacing: 0.7px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+}
+.working_position {
+  color: var(--white-color);
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+}
+.project_name {
+  color: var(--white-color);
+  padding-left: 5px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.arrow svg {
+  color: var(--white-color);
+  padding-left: 5px;
+  font-size: var(--body-font-size);
+  rotate: -30deg;
+  transition: var(--transition);
+}
+.experience_card:hover .arrow svg {
+  transform: translate(8px, -1px);
+}
+
+.language {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.language_name {
+  padding: 5px 13px;
+  font-size: 13px;
+  transition: var(--transition);
+  color: var(--info-color);
+  background: var(--info-hover-color);
+  border-radius: 19px;
+}
+.language_name:hover{
+  color: var(--white-color);
+}
+
+.experience_card {
+  transition: var(--transition);
+  padding: 15px 25px;
+  border-radius: 9px;
+}
+.experience_card:hover {
+  background-color: rgba(155, 159, 172, 0.1);
+  cursor: pointer;
+}
+
+.experience_card:hover .working_position {
+  color: var(--info-color);
+}
+.experience_card:hover .project_name {
+  color: var(--info-color);
+}
+.experience_card:hover .arrow svg {
+  color: var(--info-color);
+}
+
+.project_description {
+  font-size: 13px;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  letter-spacing: 0.9px;
+}
+
+.resume {
+  color: var(--white-color);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  font-size: 15px;
+}
+.resume_link {
+  transition: var(--transition);
+}
+.resume_link:hover .resume {
+  color: var(--info-color);
+}
+.resume_link:hover svg {
+  transform: translate(8px, -1px);
+  color: var(--info-color);
+}

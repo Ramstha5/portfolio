@@ -1,0 +1,29 @@
+.cursorWrapper {
+   position: fixed;
+   pointer-events: none;
+   z-index: 9999;
+ }
+ 
+ .cursorGlow {
+   position: fixed;
+   width: 900px;
+   height: 900px;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+   background: radial-gradient(circle, #6b61b026, transparent 60%);
+   mix-blend-mode: screen;
+   will-change: transform;
+ }
+ 
+ .innerDot {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   height: 400px;
+   background: radial-gradient(circle, #685dae26, transparent 50%);
+   /* background-color: rgba(15, 23, 42, 0.4); */
+   border-radius: 50%;
+   transform: translate(-50%, -50%);
+ }
+ 

@@ -1,0 +1,184 @@
+.spinner_image img {
+  width: 140px;
+  position: absolute;
+  right: 35px;
+}
+
+/* SpinnerImage.module.css */
+.customOffcanvas {
+  height: 100vh !important;
+}
+
+.customOffcanvas .offcanvas-body {
+  height: 100vh;
+  overflow-y: auto;
+}
+.hero {
+  /* position: relative; */
+  height: 500px;
+  background-color: rgba(15, 23, 42, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 2.5rem;
+  color: #fff;
+  z-index: 2;
+  position: relative;
+}
+
+/* Base style for all ellipses */
+.ellipse {
+  position: absolute;
+  border: 3px solid rgba(255, 255, 255, 0.08);
+  border-radius: 50% / 50%;
+  /* Use the radial gradient here: */
+
+  /* Optional soft glow: */
+  filter: blur(3px);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(180, 180, 181, 0.9),
+    transparent 70%
+  );
+}
+
+/* Individual styles for 4 rotating ellipses */
+.ellipse:nth-child(1) {
+  width: 500px;
+  height: 380px;
+  animation: rotate1 20s linear infinite;
+  opacity: 1;
+
+  box-shadow: 0 0 20px rgba(246, 107, 107, 0.8), 0 0 40px rgba(173, 17, 17, 0.8);
+}
+
+.ellipse:nth-child(2) {
+  width: 500px;
+  height: 380px;
+  animation: rotate2 12s linear infinite;
+  opacity: 1;
+  box-shadow: 0 0 20px rgba(87, 228, 127, 0.8), 0 0 40px rgba(14, 173, 27, 0.8);
+}
+
+.ellipse:nth-child(3) {
+  width: 500px;
+  height: 380px;
+  animation: rotate3 35s linear infinite;
+  opacity: 1;
+  box-shadow: 0 0 20px rgba(93, 96, 229, 0.8), 0 0 40px rgba(8, 30, 158, 0.8);
+}
+
+.ellipse:nth-child(4) {
+  width: 500px;
+  height: 380px;
+  animation: rotate4 45s linear infinite;
+  opacity: 1;
+  box-shadow: 0 0 20px rgba(206, 205, 109, 0.8), 0 0 40px rgba(179, 198, 8, 0.8);
+}
+
+/* Keyframes with alternating directions */
+@keyframes rotate1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate2 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotate3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate4 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+:global(.offcanvas .offcanvas-header .btn-close.cross-cancel) {
+  position: absolute !important;
+  top: 50px !important;
+  right: 50px !important;
+  z-index: 333 !important;
+  padding: 0 !important;
+  filter: invert(1);
+}
+
+.customOffcanvas .offcanvas-body {
+  padding: 0 !important;
+}
+.name {
+  max-width: 28rem;
+  color: var(--secondary-color);
+  margin: 0 auto;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-style: oblique;
+  padding-left: 30px;
+}
+
+.card-wrapper {
+  transform: rotateX(-4deg) rotateY(-3deg) translateZ(-10px);
+}
+
+.img_wrapper {
+  position: relative;
+}
+
+.offcanvas_card {
+  height: 120px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0 5px 3px rgba(245, 245, 245, 0.6);
+  transition: var(--transition);
+}
+.offcanvas_card img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.offcanvas_card:hover {
+  filter: blur(3px);
+  transform: scale(1.05);
+}
+
+.v {
+  position: absolute;
+  color: white;
+  z-index: 99;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  pointer-events: none;
+  font-size: 24px;
+}
+
+.img_wrapper:hover .v {
+  visibility: visible;
+}

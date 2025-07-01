@@ -1,0 +1,47 @@
+h1 {
+  color: var(--white-color);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.name {
+  background: linear-gradient(90deg, #e92644, #0cc5c5, #51d81b, #e2ac1a);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: nameAnime 3s ease-in-out infinite;
+  transition: var(--transition);
+}
+
+.name_wrap:hover {
+  cursor: url("/images/Elma.png"), auto;
+}
+
+/* Smooth gradient shift using background-position */
+@keyframes nameAnime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h2 {
+  color: var(--secondary-color);
+  line-height: 1.75;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.des {
+  color: var(--primary-color);
+  margin-top: 1rem;
+  max-width: 20rem;
+  letter-spacing: 0.5px;
+}
