@@ -115,6 +115,11 @@ ol {
 
 
 /* actual css start  */
+
+.content_wrapper{
+  display: flex;
+  justify-content: space-between;
+}
 header {
   padding: 6rem 0;
   width: 42vw;
@@ -128,6 +133,19 @@ main {
   width: 50vw;
 }
 
-
-
 /* actual css end  */
+
+@media (max-width: 991px) {
+  .content_wrapper{
+    display: block;
+  }
+  header {
+    position: unset;
+    width: 100vw;
+  }
+  main {
+    padding: 0;
+    margin-left: 0; 
+    width: 100vw;
+  }
+}

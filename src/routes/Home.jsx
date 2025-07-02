@@ -12,7 +12,7 @@ const Home = () => {
     <>
   
       <div className="container">
-        <div className="d-flex justify-content-between">
+        <div className="content_wrapper">
          <Profile/>
           <main>
             <About/>
