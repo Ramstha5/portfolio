@@ -67,13 +67,13 @@ const SpinnerImage = () => {
                 Looking for a different site? Go back in time...
               </h1>
               <div className="row d-flex justify-content-center">
-                <div className="col-md-4">
+                <div className="col-md-4 col-lg-5 col-sm-5 col-5">
                   <div className="card-wrapper">
                     <div className="row">
                       {offcanvasImage.map((item) => (
                         <div
                           key={item.id}
-                          className={`col-md-6 p-1 ${styles.img_wrapper}`}
+                          className={`col-lg-6 col-md-6 col-sm-12 p-1 ${styles.img_wrapper}`}
                         >
                             <Link to="/">
                           <div className={`${styles.offcanvas_card} card `} >

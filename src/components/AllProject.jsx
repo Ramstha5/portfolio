@@ -19,12 +19,12 @@ const AllProject = () => {
             <span className={styles.name}>Ram Shrestha</span>
           </Link>
           <h1 className={styles.h1}>All Projects</h1>
-          <div className="row py-4">
-            <div className={`col-md-1 ${styles.year}`}><span>Year</span></div>
-            <div className={`col-md-3 ${styles.title}`}><span>Project</span></div>
-            <div className={`col-md-2 ${styles.made}`}><span>Made at</span></div>
-            <div className={`col-md-4 ${styles.languages}`}><span>Built with</span></div>
-            <div className={`col-md-2 ${styles.link}`}><span>Link</span></div>
+          <div className={`row py-4 ${styles.thead}`}>
+            <div className={`col-lg-1 col-md-2 col-sm-2 col-2 ${styles.year}`}><span>Year</span></div>
+            <div className={`col-lg-3 col-md-6 col-sm-6 col-10 ${styles.title}`}><span>Project</span></div>
+            <div className={`col-lg-2 col-md-0 col-sm-0 col-0 ${styles.made}`}><span>Made at</span></div>
+            <div className={`col-lg-4 col-md-0 col-sm-0 col-0 ${styles.languages}`}><span>Built with</span></div>
+            <div className={`col-lg-2 col-md-4 col-sm-4 col-0 ${styles.link}`}><span>Link</span></div>
           </div>
           {ProItems.map((item) => (
             <AllProjectItem key={item.id} item={item} />
@@ -36,3 +36,4 @@ const AllProject = () => {
 };
 
 export default AllProject;
+

@@ -5,10 +5,10 @@ const AllProjectItem = ({ item }) => {
   return (
     <>
       <div className={`row py-4 ${styles.bdr}`}>
-        <div className="col-md-1">{item.year}</div>
-        <div className={`col-md-3 ${styles.names}`}>{item.title}</div>
-        <div className="col-md-2">{item.made}</div>
-        <div className="col-md-4">
+        <div className={`col-lg-1 col-md-2 col-2 ${styles.years}`}>{item.year}</div>
+        <div className={`col-lg-3 col-md-6 col-10 ${styles.titles}`}>{item.title}</div>
+        <div className={`col-lg-2 col-md-0 col-0 ${styles.mades}`}>{item.made}</div>
+        <div className={`col-lg-4 col-md-0 col-0 ${styles.languagess}`}>
           <ul className={styles.language}>
             {item.language.language_name.map((language) => (
               <li key={language} className={styles.language_name}>
@@ -17,7 +17,7 @@ const AllProjectItem = ({ item }) => {
             ))}
           </ul>
         </div>
-        <div className="col-md-2 ">
+        <div className={`col-lg-2 col-md-4 col-4 ${styles.links}`}>
           <a href="#" className={styles.links}>
             <span> {item.link}</span>
             <span className={styles.link_arrow}>

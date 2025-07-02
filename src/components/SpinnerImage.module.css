@@ -183,3 +183,10 @@
   visibility: visible;
 }
 
+@media (max-width:768px){
+  .name{
+    font-size: 1.2rem;
+    margin-top: 140px;
+    max-width: 17rem;
+  }
+}
