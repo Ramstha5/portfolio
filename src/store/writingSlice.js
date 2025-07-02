@@ -3,13 +3,13 @@ import { createSlice } from "@reduxjs/toolkit";
 const DEFAULT_PRO = [
   {
     id: "1",
-    writing_image: "images/p1.png",
+    writing_image: "images/writing.png",
     date: "2023",
     title: "Integrating Algolia Search with WordPress Multisite",
   },
   {
     id: "2",
-    writing_image: "images/p1.png",
+    writing_image: "images/writing.png",
     date: "2025",
     title: "Integrating Algolia Search with WordPress Multisite",
   },

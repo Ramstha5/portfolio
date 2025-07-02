@@ -1,27 +1,31 @@
 import React from "react";
-import styles from "./Projects.module.css";
 import { FaArrowRight } from "react-icons/fa";
 import ProjectItem from "./ProjectItem";
 import { useSelector } from "react-redux";
+import styles from "./Projects.module.css";
 const Projects = () => {
-
-  const ProItems = useSelector((store) =>store.project)
+  const ProItems = useSelector((store) => store.project);
 
   return (
     <>
       <section className={styles.projects} id="project">
-        {ProItems.slice(0, 5).map((ProItem) => (
-          <ProjectItem key={ProItem.id} ProItem={ProItem} />
-        ))}
+        <div className="container">
+          <h2 className={styles.h2_heading}>project</h2>
+          {ProItems.slice(0, 5).map((ProItem) => (
+            <ProjectItem key={ProItem.id} ProItem={ProItem} />
+          ))}
 
-        <div className="row mt-5">
-          <div className="col-md-12">
-            <a href="/archive" className={styles.project_link}>
-              <span className={styles.project}>View Full Project Archive</span>
-              <span className={styles.arrow}>
-                <FaArrowRight />
-              </span>
-            </a>
+          <div className="row mt-5">
+            <div className="col-md-12">
+              <a href="/archive" className={styles.project_link}>
+                <span className={styles.project}>
+                  View Full Project Archive
+                </span>
+                <span className={styles.arrow}>
+                  <FaArrowRight />
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </section>

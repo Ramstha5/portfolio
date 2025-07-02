@@ -8,19 +8,19 @@ const SpinnerImage = () => {
   const offcanvasImage = [
     {
       id:1,
-      image: "images/p1.png",
+      image: "images/project1.jpg",
     },
     {
       id:2,
-      image: "images/p1.png",
+      image: "images/project1.jpg",
     },
     {
       id:3,
-      image: "images/p1.png",
+      image: "images/project1.jpg",
     },
     {
       id:4,
-      image: "images/p1.png",
+      image: "images/project1.jpg",
     },
   ];
 

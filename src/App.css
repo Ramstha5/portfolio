@@ -119,18 +119,19 @@ ol {
 .content_wrapper{
   display: flex;
   justify-content: space-between;
+  padding: 0 40px;
 }
 header {
   padding: 6rem 0;
-  width: 42vw;
+  width: 48vw;
   position: fixed;
   top: 0;
 }
 
 main {
   padding: 6rem 0 0 0;
-  margin-left: 42vw;
-  width: 50vw;
+  margin-left: 48vw;
+  width: 52vw;
 }
 
 /* actual css end  */
@@ -138,6 +139,7 @@ main {
 @media (max-width: 991px) {
   .content_wrapper{
     display: block;
+    padding: 0;
   }
   header {
     position: unset;
@@ -148,4 +150,5 @@ main {
     margin-left: 0; 
     width: 100vw;
   }
+
 }

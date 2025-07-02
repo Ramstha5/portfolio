@@ -4,10 +4,10 @@ const DEFAULT_PRO = [
   {
     id: "1",
     year: "2025",
-    project_image: "images/p1.png",
-    title: "Build a Spotify Connected",
+    project_image: "images/project1.jpg",
+    title: "Food Ordering System",
     description:
-      "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+      "Developed a full-stack Online Food Ordering System using React and Django. Implemented features like user authentication, dynamic menus, and cart management. Focused on building a responsive, accessible, and user-friendly interface.",
     made: "Upstatement",
     language: {
       language_name: ["HTML", "Bootstrap", "React", "JavaScript"],
@@ -16,95 +16,96 @@ const DEFAULT_PRO = [
   },
   {
     id: "2",
-    year: "2020",
-    project_image: "images/p1.png",
-    title: "Build a Spotify Connected",
+    year: "2025",
+    project_image: "images/project1.jpg",
+    title: "Food Ordering System",
     description:
-      "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+      "Developed a full-stack Online Food Ordering System using React and Django. Implemented features like user authentication, dynamic menus, and cart management. Focused on building a responsive, accessible, and user-friendly interface.",
     made: "Upstatement",
     language: {
       language_name: ["HTML", "Bootstrap", "React", "JavaScript"],
     },
-    link: "example.com",
+    link: "abc.com",
   },
   {
     id: "3",
-    year: "2020",
-    project_image: "images/p1.png",
-    title: "Build a Spotify Connected",
+    year: "2025",
+    project_image: "images/project1.jpg",
+    title: "Food Ordering System",
     description:
-      "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+      "Developed a full-stack Online Food Ordering System using React and Django. Implemented features like user authentication, dynamic menus, and cart management. Focused on building a responsive, accessible, and user-friendly interface.",
     made: "Upstatement",
     language: {
       language_name: ["HTML", "Bootstrap", "React", "JavaScript"],
     },
-    link: "example.com",
+    link: "abc.com",
   },
   {
     id: "4",
-    year: "2020",
-    project_image: "images/p1.png",
-    title: "Build a Spotify Connected",
+    year: "2025",
+    project_image: "images/project1.jpg",
+    title: "Food Ordering System",
     description:
-      "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+      "Developed a full-stack Online Food Ordering System using React and Django. Implemented features like user authentication, dynamic menus, and cart management. Focused on building a responsive, accessible, and user-friendly interface.",
     made: "Upstatement",
     language: {
       language_name: ["HTML", "Bootstrap", "React", "JavaScript"],
     },
-    link: "example.com",
+    link: "abc.com",
   },
   {
     id: "5",
-    year: "2020",
-    project_image: "images/p1.png",
-    title: "Build a Spotify Connected",
+    year: "2025",
+    project_image: "images/project1.jpg",
+    title: "Food Ordering System",
     description:
-      "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+      "Developed a full-stack Online Food Ordering System using React and Django. Implemented features like user authentication, dynamic menus, and cart management. Focused on building a responsive, accessible, and user-friendly interface.",
     made: "Upstatement",
     language: {
       language_name: ["HTML", "Bootstrap", "React", "JavaScript"],
     },
-    link: "example.com",
+    link: "abc.com",
   },
   {
     id: "6",
-    year: "2020",
-    project_image: "images/p1.png",
-    title: "Build a Spotify Connected",
+    year: "2025",
+    project_image: "images/project1.jpg",
+    title: "Food Ordering System",
     description:
-      "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
-    made: "Upstatement",
-    language: {
-      language_name: ["HTML", "python", "Bootstrap", "React", "JavaScript"],
-    },
-    link: "example.com",
-  },
-  {
-    id: "7",
-    year: "2020",
-    project_image: "images/p1.png",
-    title: "Build a Spotify Connected",
-    description:
-      "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+      "Developed a full-stack Online Food Ordering System using React and Django. Implemented features like user authentication, dynamic menus, and cart management. Focused on building a responsive, accessible, and user-friendly interface.",
     made: "Upstatement",
     language: {
       language_name: ["HTML", "Bootstrap", "React", "JavaScript"],
     },
-    link: "example.com",
+    link: "abc.com",
+  },
+  {
+    id: "7",
+    year: "2025",
+    project_image: "images/project1.jpg",
+    title: "Food Ordering System",
+    description:
+      "Developed a full-stack Online Food Ordering System using React and Django. Implemented features like user authentication, dynamic menus, and cart management. Focused on building a responsive, accessible, and user-friendly interface.",
+    made: "Upstatement",
+    language: {
+      language_name: ["HTML", "Bootstrap", "React", "JavaScript"],
+    },
+    link: "abc.com",
   },
   {
     id: "8",
-    year: "2020",
-    project_image: "images/p1.png",
-    title: "Build a Spotify Connected",
+    year: "2025",
+    project_image: "images/project1.jpg",
+    title: "Food Ordering System",
     description:
-      "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
+      "Developed a full-stack Online Food Ordering System using React and Django. Implemented features like user authentication, dynamic menus, and cart management. Focused on building a responsive, accessible, and user-friendly interface.",
     made: "Upstatement",
     language: {
-      language_name: ["HTML", "Bootstrap", "React", "React", "JavaScript"],
+      language_name: ["HTML", "Bootstrap", "React", "JavaScript"],
     },
-    link: "example.com",
+    link: "abc.com",
   },
+  
 ];
 
 const projectSlice = createSlice({

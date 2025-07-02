@@ -4,27 +4,26 @@ const DEFAULT_EXP = [
   {
     id: "1",
     date: "2025 - PRESENT",
-    position: "Senior Frontend Engineer, Accessibility ·",
-    project_name: "Daraz",
+    position: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    project_name: "ABC",
     description:
-      "Build and maintain critical components used to construct Klaviyo's frontend...",
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet quo ducimus in velit veniam, laboriosam inventore amet aut nostrum?...",
     language: {
-      language_name: ["HTML", "Bootstrap", "React","JavaScript"],
+      language_name: ["HTML", "Bootstrap", "React", "JavaScript"],
     },
   },
   {
     id: "2",
     date: "2024-2025",
-    position: "Senior Frontend Engineer, Accessibility ·",
-    project_name: "Daraz",
+    position: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    project_name: "ABC",
     description:
-      "Build and maintain critical components used to construct Klaviyo's frontend...",
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eveniet quo ducimus in velit veniam, laboriosam inventore amet aut nostrum?...",
     language: {
       language_name: ["HTML", "Bootstrap", "React"],
     },
   },
 ];
-
 
 const experienceSlice = createSlice({
   name: "experience",

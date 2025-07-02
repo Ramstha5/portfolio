@@ -34,6 +34,7 @@ const ExperienceItem = ({ExpItem}) => {
               <li className={styles.language_name}>html</li>
               <li className={styles.language_name}>bootstrap</li> */}
             </ul>
+           
           </div>
         </div>
       </div>

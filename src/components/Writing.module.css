@@ -36,7 +36,7 @@
 }
 .writing_card {
    transition: var(--transition);
-   padding: 15px 25px;
+   padding: 15px ;
    border-radius: 9px;
  }
  .writing_card:hover {
@@ -58,3 +58,36 @@
  .writing_card:hover .arrow svg {
    color: var(--info-color);
  }
+
+ .h2_heading {
+  text-transform: uppercase;
+  color: var(--white-color);
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 700;
+  align-items: center;
+  position: relative;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+}
+@media (min-width: 991px) {
+  .h2_heading {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .writing_card{
+    padding: 0;
+  }
+  .writing_image{
+    width: 70px;
+    height: 40px;
+ }
+ .date{
+  font-size: 13px;
+}
+ .title{
+ font-size: 13px;
+}
+  
+}

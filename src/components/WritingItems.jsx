@@ -7,12 +7,12 @@ const WritingItems = ({ WrtItem }) => {
     <>
       <div className={`${styles.writing_card} mt-3`}>
         <div className="row">
-          <div className="col-md-3">
+          <div className=" col-3">
             <div className={styles.writing_image}>
               <img src={WrtItem.writing_image} alt="aa" />
             </div>
           </div>
-          <div className="col-md-9">
+          <div className="col-9">
             <div className={styles.writing_body}>
               <p className={styles.date}>{WrtItem.date}</p>
               <h3>

@@ -10,20 +10,17 @@ import SpinnerImage from "../components/SpinnerImage";
 const Home = () => {
   return (
     <>
-  
-      <div className="container">
-        <div className="content_wrapper">
-         <Profile/>
-          <main>
-            <About/>
-            <Experience/>
-            <Projects/>
-            <Writing/>
-            <Footer/>
-          </main>
-        </div>
-          <SpinnerImage/>
+      <div className="content_wrapper">
+        <Profile />
+        <main>
+          <About />
+          <Experience />
+          <Projects />
+          <Writing />
+          <Footer />
+        </main>
       </div>
+      <SpinnerImage />
     </>
   );
 };
