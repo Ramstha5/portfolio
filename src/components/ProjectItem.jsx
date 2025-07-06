@@ -9,7 +9,10 @@ const ProjectItem = ({ ProItem }) => {
         <div className="row d-flex flex-wrap">
           <div className={`col-md-4   ${styles.project_img}`}>
             <div className={styles.project_image}>
-              <img src={ProItem.project_image} alt="aa" />
+              <img
+                src={ProItem.project_image}
+                alt="E-commerce website project using React and Firebase"
+              />
             </div>
           </div>
           <div className="col-md-8 project-content">
